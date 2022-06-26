@@ -5,61 +5,60 @@
 	</head>
 	<style>
 	    html {
-        backround-color: #000;
-	      }    
+	    }    
 
 	    body {
-		    font-family:'Helvetica';
-		    width: auto;
-		    color: #ae5cff;
-		    text-align: justify;
-		    backround-color: #000;
-	      }
+		font-family:'Helvetica';
+		width: auto;
+		color: #ae5cff;
+		text-align: justify;
+		backround-color: black;
+	    }
 
 	    h1 {
-		    font-size: 3em;
-		    font-family:'Roboto', 'Sans-Serif';
-	      }
+		font-size: 3em;
+		font-family:'Roboto', 'Sans-Serif';
+	    }
 
 	    p {
-		    font-size: 1em;
-		    line-height: 1em;
-		    color: #e5e4e2;
-		    font-family:'Helvetica';
-	      }
+		font-size: 1em;
+		line-height: 1em;
+		color: #e5e4e2;
+		font-family:'Helvetica';
+	    }
 		
 	    a:hover {
-  		  color: red;
-  		  background-color: transparent;
-  		  text-decoration: underline;
-		    }
+  		color: red;
+  		background-color: transparent;
+  		text-decoration: underline;
+		}
 		
 	    #aj {
-		    position: absolute;
-		    top: 46px;
-		    left: 15px;
-		    right: 5px;
+		position: absolute;
+		top: 46px;
+		left: 15px;
+		right: 5px;
 		    }
 		
 	    #aj0 {
-		    position: absolute;
-		    top: 46px;
-		    left: 15px;
-		    right: 5px;
+		position: absolute;
+		top: 46px;
+		left: 15px;
+		right: 5px;
 		    }
 		
 	    #pi {
-		    position: absolute;
-		    top: 49px;
-		    color: white;
-		    }
+		position: absolute;
+		top: 49px;
+		color: #000000;
+		}
 		
 	    #minipixieakali {
-		    position: absolute;
-		    left: 142px;
-		    }
+		position: absolute;
+		left: 142px;
+		}
 		    
-       #Functionz {
+            #Function {
             position: absolute;
             top: 15px;
             left: 15px;
@@ -67,28 +66,25 @@
             max-width: 1000px;
             max-height: 28px;
             background: transparent;
-	          stroke: #9370DB;
-	          filter: url(#glow);
+	    stroke: #9370DB;
+	    filter: url(#glow);
             }
 		
-       input[type="text"], textarea {
+            input[type="text"], textarea {
             position: absolute;
             top: 15px;
             left: 15px;
             right: 5px;
             background: transparent;
             stroke: #9370DB;
-	          filter: url(#glow);
+	    filter: url(#glow);
             color: #ae5cff;
             width: 1466px;
             height: 25px;
             outline: white;
             }
         </style>
-        
-        
-	<body onload="myFunction()">
-	        <div id="svg-container">
+	<body>
 		  <!-- viewBox = <min-x> <min-y> <width> <height> -->
 		  <svg id="LoginForm" viewBox="0 0 1100 190" >
 			<defs>
@@ -114,7 +110,7 @@
 
 			    <rect x="5" y="5" height="23" width="1080" style="fill: none;  stroke: #9370DB; filter: url(#glow)"/>
 		
-		<div class="fuckoff">
+		
 			<h1 id="aj0">#ae5cff</h1>
 			<h3 id="pi">
 				<pre xml:space="preserve">
@@ -122,35 +118,59 @@
 						 PIONEERS
 						 PIONEERS
 				</pre>
-			<br></br>			
+						
 			
 			<h3 id="aj">S A I N T  D.  M A L L I Y A H</h3>
 			
 			<h3 id="aj">EMBERMALLIYAH</H3>
 			
 			<h2>honest to god</h2>		
-			<br></br>						
+									
 			<h3>STORM D. C4T</h3>
-			<br></br>
+			
 			<img src="/img/oc.jpg" id="oc">
 			<img src="/img/minipixieakali.jpg" id="minipixieakali">
 			
 			<pre xml:space="preserve">
-			
 			<a href="https://github.com/dmalliyah"> github.com/dmalliyah </a>
-			<br></br>
-
 
 			</pre>
 
-		<div id="Function">
 		    
-        		<input type="text" id="vi" name="arabella">
-			<button type="button" id="submit" onclick="myFunction">ARABELLA</button>
+        		<input type="text" id="myText" value="P R I N C E S S">
+			<button type="button" id="submit" onclick="myFunction()">ARABELLA</button>
+				
+			<p id="ara"></p>
+			<h1 id="demo"></h1>
+				
+			<script>
+				function myFunction() {
+				var x = document.getElementById("vi").value;
+				}
+				document.getElementById("ara").innerHTML = x;
+			</script>
+
+				
+			<h1 id="demo"></h1>
+
+			<script>
+			document.getElementById("demo").innerHTML = 46 + 81;
+			</script>
+		
+
+				
 
 
+			<p id="demo"></p>
 
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myText").value;
+			  document.getElementById("demo").innerHTML = x;
+			}
+			</script>
+			
 	
-		</div>
+		
 	</body>
 </html>
