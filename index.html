@@ -115,7 +115,7 @@
 			<h3 id="pi">
 				<pre xml:space="preserve">
 						 PIONEERS
-						 PIONEERS
+						 SISTERS
 						 PIONEERS
 				</pre>
 						
@@ -141,8 +141,14 @@
 			<button type="button" id="submit" onclick="myFunction()">4 6    8 1</button>
 				
 			<p id="ara"></p>
-			<h1 id="vi"></h1>
+			<h1 id="demo"></h1>
 				
+			<script>
+				function myFunction() {
+				var x = document.getElementById("vi").value;
+				}
+				document.getElementById("ara").innerHTML = x;
+			</script>
 
 				
 			<h1 id="demo"></h1>
@@ -151,11 +157,21 @@
 			const embercoded = 46;
 			const malliyahcoded = 81;
 			let embermalliyahcoded = embercoded + malliyahcoded;
-			document.getElementById("vi").innerHTML = embermalliyahcoded;
+			document.getElementById("demo").innerHTML = embermalliyahcoded;
 			</script>
 		
 
 				
+
+
+			<p id="demo"></p>
+
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myText").value;
+			  document.getElementById("demo").innerHTML = x;
+			}
+			</script>
 			
 	
 		
